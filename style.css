@@ -1,0 +1,91 @@
+body {
+    background-image: url('imghtml/fundo.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header {
+    background-color:black; /* Cor de fundo da navbar */
+    color: #fff; /* Cor do texto na navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo img {
+    max-width: 80px; /* Largura máxima do logotipo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4500; /* Cor quando o mouse passa por cima */
+}
+
+#conteudo {
+    background-color: rgba(0, 0, 0, 0.72);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#foto {
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+#apresentacao,p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #7e1a1a;
+    margin: 10px;
+    font-size: 45px;
+}
+.botao {
+    background-color: #e23636; /* Cor de fundo azul (pode personalizar) */
+    color: #784b4b; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno do botão (ajuste conforme necessário) */
+    border: none; /* Remova a borda padrão do botão */
+    text-align: center; /* Centralize o texto dentro do botão */
+    text-decoration: none; /* Remova a sublinhado do link dentro do botão */
+    display: inline-block; /* Certifique-se de que o botão ocupa apenas o espaço necessário */
+    font-size: 16px; /* Tamanho da fonte (ajuste conforme necessário) */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    border-radius: 10px; /* Adiciona bordas arredondadas (ajuste conforme necessário) */
+  }
+  
+  /* Estilo para os links dentro dos botões */
+  .botao a {
+    color: #000000; /* Cor do texto do link dentro do botão (pode personalizar) */
+    text-decoration: none; /* Remova a sublinhado do link */
+  }
